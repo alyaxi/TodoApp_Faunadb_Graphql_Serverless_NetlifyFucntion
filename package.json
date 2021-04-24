@@ -1,23 +1,19 @@
 {
-  "name": "gatsby-starter-minimal",
+  "name": "todoapp_final",
   "version": "1.0.0",
-  "private": true,
-  "description": "A Gatsby starter with no plugins and a single welcome page.",
-  "author": "Laurie Barth",
-  "keywords": [
-    "gatsby"
-  ],
+  "description": "<p align=\"center\">\r   <a href=\"https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter\">\r     <img alt=\"Gatsby\" src=\"https://www.gatsbyjs.com/Gatsby-Monogram.svg\" width=\"60\" />\r   </a>\r </p>\r <h1 align=\"center\">\r   Gatsby minimal starter\r </h1>",
+  "main": "index.js",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gatsby": "gatsby develop"
   },
-  "license": "0BSD",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "gatsby": "^3.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "gatsby": "^3.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
