@@ -4,8 +4,8 @@ import axios from "axios"
 export default function Task({task, reloadTask}) {
 
 
-    const deleteTodo = () => {
-        axios.post("/api/delete-task", {id:task._id}).then(reloadTask)
+    const deleteTodo = async () => {
+        await axios.post("/api/delete-task", {id:task._id}).then(reloadTask)
     }
   
 
