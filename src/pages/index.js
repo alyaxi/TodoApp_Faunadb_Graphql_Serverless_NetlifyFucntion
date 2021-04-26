@@ -4,17 +4,16 @@ import Form from "./components/Form";
 import Task from "./components/Tasks";
 
 
-const IndexPage = () => {
+export default () => {
     const [status, setStatusCode] = useState("loading");
     const [task, setTask] = useState(null)
-    React.useEffect( () => {
-        async function fetchData(){
+    React.useEffect(() => {
         let canceled = false
-        if(status !== "loading") return;
-        await axios("/api/get-all-todos").then(result => {
+        if(status != "loading") return;
+         axios("/api/get-all-todos").then(result => {
             if (canceled === true) return;
 
-            if(result.status !== 200){
+            if(result.status != 200){
                 console.log("Error Loading task");
                 console.log(result);
                 return
@@ -28,8 +27,7 @@ const IndexPage = () => {
         }
 
         
-        }
-        fetchData()
+        
     }, [status])
     const reloadTask = () => {setStatusCode("loading")}
     return(
@@ -38,11 +36,11 @@ const IndexPage = () => {
             <Form reloadTask={reloadTask}/>
             {task ? (
                 <ul>
-                    {task.map(tasks => {
-                        console.log(tasks);
+                    {task.map(task => {
+                        console.log(task);
                         return (
-                                <li key={tasks._id}>
-                                    <Task task={tasks} reloadTask={reloadTask}/>
+                                <li key={task._id}>
+                                    <Task tasks={task} reloadTask={reloadTask}/>
                                     </li>
                             
                         )
@@ -52,4 +50,3 @@ const IndexPage = () => {
         </main>
     )
 }
-export default IndexPage
