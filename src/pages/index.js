@@ -4,16 +4,17 @@ import Form from "./components/Form";
 import Task from "./components/Tasks";
 
 
-export default () => {
+const Index = () => {
     const [status, setStatusCode] = useState("loading");
     const [task, setTask] = useState(null)
     React.useEffect(() => {
+        async function fetchTodo(){
         let canceled = false
-        if(status != "loading") return;
-         axios("/api/get-all-todos").then(result => {
+        if(status !== "loading") return;
+         await axios("/api/get-all-todos").then(result => {
             if (canceled === true) return;
 
-            if(result.status != 200){
+            if(result.status !== 200){
                 console.log("Error Loading task");
                 console.log(result);
                 return
@@ -25,9 +26,8 @@ export default () => {
         return () => {
             canceled = true
         }
-
-        
-        
+    }    
+    fetchTodo()
     }, [status])
     const reloadTask = () => {setStatusCode("loading")}
     return(
@@ -50,3 +50,4 @@ export default () => {
         </main>
     )
 }
+export default Index 
