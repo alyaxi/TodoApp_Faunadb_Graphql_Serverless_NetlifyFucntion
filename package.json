@@ -1,7 +1,7 @@
 {
   "name": "todoapp_final",
   "version": "1.0.0",
-  "description": "<p align=\"center\">\r   <a href=\"https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter\">\r     <img alt=\"Gatsby\" src=\"https://www.gatsbyjs.com/Gatsby-Monogram.svg\" width=\"60\" />\r   </a>\r </p>\r <h1 align=\"center\">\r   Gatsby minimal starter\r </h1>",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,11 +15,10 @@
     "@reach/visually-hidden": "^0.1.4",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "gatsby": "^3.3.1",
-    "gatsby-cli": "^3.3.0",
+    "gatsby": "^2.0.0",
     "gatsby-plugin-netlify-identity": "^0.0.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-netlify-identity": "^0.2.5",
     "react-netlify-identity-widget": "^0.2.7"
   }
