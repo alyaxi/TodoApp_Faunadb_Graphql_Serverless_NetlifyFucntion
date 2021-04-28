@@ -10,16 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@reach/dialog": "^0.2.9",
-    "@reach/tabs": "^0.1.6",
-    "@reach/visually-hidden": "^0.1.4",
+    "@reach/dialog": "^0.7.2",
+    "@reach/tabs": "^0.7.2",
+    "@reach/visually-hidden": "^0.7.2",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.0.0",
-    "gatsby-plugin-netlify-identity": "^0.0.3",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-netlify-identity": "^0.2.5",
-    "react-netlify-identity-widget": "^0.2.7"
+    "gatsby": "^2.18.17",
+    "gatsby-plugin-netlify-identity": "0.0.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-netlify-identity": "^0.1.9",
+    "react-netlify-identity-widget": "^0.2.5"
   }
 }
