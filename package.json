@@ -2,11 +2,11 @@
   "name": "todoapp_final",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
-    "build": "gatsby build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "debug": "netlify dev --inspect"
   },
   "author": "",
   "license": "ISC",
