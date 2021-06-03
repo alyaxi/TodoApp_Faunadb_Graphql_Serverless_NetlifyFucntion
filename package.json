@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
-    "debug": "netlify dev --inspect"
+    "debug": "netlify dev --inspect",
+    "build": "gatsby build"
   },
   "author": "",
   "license": "ISC",
