@@ -14,7 +14,7 @@ import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from '@material-ui/icons/Delete';
 import Swal from 'sweetalert2'
-import "@sweetalert2/theme-bulma/bulma.css"
+
 
 export default function Task({ tasks, reloadTask }) {
  

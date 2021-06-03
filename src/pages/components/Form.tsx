@@ -5,7 +5,6 @@ import { IconButton } from '@material-ui/core';
 import AddCircleOutlinedIcon from '@material-ui/icons/AddCircleOutlined';
 import "../assets/Form.css"
 import Swal from 'sweetalert2'
-import "@sweetalert2/theme-bulma/bulma.css"
 export default function Form({reloadTask}) {
     
     const [task, setTask] = React.useState("")
