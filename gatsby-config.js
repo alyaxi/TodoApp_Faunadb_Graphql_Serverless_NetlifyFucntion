@@ -4,7 +4,7 @@ module.exports = {
       {
         resolve: `gatsby-plugin-netlify-identity`,
         options: {
-          url: `https://todoapp21.netlify.app/` // required!
+          url: `https://todoapp212.netlify.app/` // required!
         }
       }
     ]
