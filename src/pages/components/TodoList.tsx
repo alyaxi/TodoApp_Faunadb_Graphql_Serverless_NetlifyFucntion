@@ -4,7 +4,7 @@ import Form from "./Form";
 import Task from "./Tasks";
 import IdentityModal, { useIdentityContext } from "react-netlify-identity-widget"
 import "react-netlify-identity-widget/styles.css"
-import "../assets/TodoList.css"
+import "./assets/TodoList.css"
 import { Button } from "@material-ui/core";
 
 const TodoList = () => {

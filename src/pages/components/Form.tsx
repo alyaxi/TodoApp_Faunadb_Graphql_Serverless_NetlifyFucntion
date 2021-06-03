@@ -3,7 +3,7 @@ import axios from "axios"
 import TextField from '@material-ui/core/TextField'
 import { IconButton } from '@material-ui/core';
 import AddCircleOutlinedIcon from '@material-ui/icons/AddCircleOutlined';
-import "../assets/Form.css"
+import "./assets/Form.css"
 import Swal from 'sweetalert2'
 export default function Form({reloadTask}) {
     
