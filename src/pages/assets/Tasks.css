@@ -1,0 +1,17 @@
+.update-container-div{
+    min-width: 300px;
+    min-height:100px;
+    padding:20px;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    box-shadow: -5px -5px 10px;
+    border-radius:10px
+}
+.update-container-div Button{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.text-field {
+    margin-top: 20px;
+
+}
