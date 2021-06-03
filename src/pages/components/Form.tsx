@@ -37,7 +37,7 @@ export default function Form({reloadTask}) {
 
            <IconButton type="submit" style={{}}><AddCircleOutlinedIcon style={{color:"#192a56", fontSize:"30px"}} /></IconButton>
            </div>
-            {/* <input placeholder={"Add Task"} type="text" onChange={getValue} value={task}/> */}
+           
             </div>
        </form>
        </div>

@@ -7,7 +7,6 @@ import {
   Fab,
   Fade,
   Modal,
-  Snackbar,
   TextField,
 } from "@material-ui/core";
 import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
